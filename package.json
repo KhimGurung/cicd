@@ -1,15 +1,12 @@
 {
   "name": "vite-test",
-  "homepage": "https://KhimGurung.github.io/cicd",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 8000"
   },
   "dependencies": {
     "react": "^18.2.0",
